@@ -21,6 +21,10 @@
 		8BBD17BB2AB93CD000BA8921 /* NetworkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD17BA2AB93CD000BA8921 /* NetworkBasic.swift */; };
 		8BBD17BD2AB964A100BA8921 /* SeSACAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD17BC2AB964A100BA8921 /* SeSACAPI.swift */; };
 		8BBD17BF2AB9744D00BA8921 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD17BE2AB9744D00BA8921 /* Network.swift */; };
+		8BBD17C22AB9E6D500BA8921 /* BeerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD17C12AB9E6D500BA8921 /* BeerNetwork.swift */; };
+		8BBD17C42AB9E6DF00BA8921 /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD17C32AB9E6DF00BA8921 /* BeerViewController.swift */; };
+		8BBD17C62AB9E8DB00BA8921 /* BeerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD17C52AB9E8DB00BA8921 /* BeerAPI.swift */; };
+		8BBD17C82AB9EB1600BA8921 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD17C72AB9EB1600BA8921 /* Beer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		8BBD17BA2AB93CD000BA8921 /* NetworkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBasic.swift; sourceTree = "<group>"; };
 		8BBD17BC2AB964A100BA8921 /* SeSACAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACAPI.swift; sourceTree = "<group>"; };
 		8BBD17BE2AB9744D00BA8921 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		8BBD17C12AB9E6D500BA8921 /* BeerNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerNetwork.swift; sourceTree = "<group>"; };
+		8BBD17C32AB9E6DF00BA8921 /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
+		8BBD17C52AB9E8DB00BA8921 /* BeerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerAPI.swift; sourceTree = "<group>"; };
+		8BBD17C72AB9EB1600BA8921 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 		8BBD17C02AB9DF5400BA8921 /* Beer */ = {
 			isa = PBXGroup;
 			children = (
+				8BBD17C12AB9E6D500BA8921 /* BeerNetwork.swift */,
+				8BBD17C32AB9E6DF00BA8921 /* BeerViewController.swift */,
+				8BBD17C52AB9E8DB00BA8921 /* BeerAPI.swift */,
+				8BBD17C72AB9EB1600BA8921 /* Beer.swift */,
 			);
 			path = Beer;
 			sourceTree = "<group>";
@@ -189,10 +201,14 @@
 				8BBD179D2AB9296000BA8921 /* ViewController.swift in Sources */,
 				8BBD17992AB9296000BA8921 /* AppDelegate.swift in Sources */,
 				8BBD17B82AB92C6B00BA8921 /* APIKey.swift in Sources */,
+				8BBD17C82AB9EB1600BA8921 /* Beer.swift in Sources */,
 				8BBD179B2AB9296000BA8921 /* SceneDelegate.swift in Sources */,
+				8BBD17C22AB9E6D500BA8921 /* BeerNetwork.swift in Sources */,
 				8BBD17BD2AB964A100BA8921 /* SeSACAPI.swift in Sources */,
+				8BBD17C62AB9E8DB00BA8921 /* BeerAPI.swift in Sources */,
 				8BBD17BF2AB9744D00BA8921 /* Network.swift in Sources */,
 				8BBD17BB2AB93CD000BA8921 /* NetworkBasic.swift in Sources */,
+				8BBD17C42AB9E6DF00BA8921 /* BeerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

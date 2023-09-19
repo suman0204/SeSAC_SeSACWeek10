@@ -8,13 +8,13 @@
 import Foundation
 import Alamofire
 
-enum Router: URLRequestConvertible {
-    func asURLRequest() throws -> URLRequest {
-        <#code#>
-    }
-    
-    
-}
+//enum Router: URLRequestConvertible {
+//    func asURLRequest() throws -> URLRequest {
+//        <#code#>
+//    }
+//    
+//    
+//}
 
 enum SeSACAPI {
     private static let key = "yKKYRfNAo0KKWFXJ2bVL6n0Xt9otrpBJtLt6cnCnhEc"
